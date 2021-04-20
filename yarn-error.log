@@ -1,0 +1,32 @@
+Arguments: 
+  /home/rafael/.nvm/versions/node/v14.15.5/bin/node /home/rafael/.nvm/versions/node/v14.15.5/bin/yarn add express
+
+PATH: 
+  /home/rafael/dev/flutter/flutter/bin:/home/rafael/dev/flutter/flutter/bin:/home/rafael/anaconda3/bin:/home/rafael/anaconda3/condabin:/home/rafael/.nvm/versions/node/v14.15.5/bin:/home/rafael/.local/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Documents/dev/tools/apache-maven-3.6.3/apache-maven/src/bin:/snap/bin:/usr/local/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.5
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND nexus3.betha.com.br
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "nodejs-nlw-5",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
