@@ -10,6 +10,8 @@ routes.prototype.config = function () {
 
     routes.post("/users", usersController.create.bind(usersController))
     routes.post("/settings", settingsController.create.bind(settingsController))
+    routes.get("/settings/:username", settingsController.findByUsername.bind(settingsController))
+    routes.put("/settings/:username", settingsController.updateChat.bind(settingsController))
     routes.post("/messages", messagesController.create.bind(messagesController))
     routes.get("/messages/:id", messagesController.showByUser.bind(messagesController))
 }
