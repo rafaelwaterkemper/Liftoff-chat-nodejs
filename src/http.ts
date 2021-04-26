@@ -22,6 +22,10 @@ function init(): Promise<void> {
             return res.render("html/client.html")
         })
 
+        app.get("/pages/admin", (req, res) => {
+            return res.render("html/admin.html")
+        })
+
         http = createServer(app)
         io = new Server(http)
 
