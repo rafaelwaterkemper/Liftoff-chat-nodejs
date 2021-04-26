@@ -28,9 +28,10 @@ function init() {
             })
 
             const { socket_id } = await connectionsService.findByUserId(user_id)
+            
             io.to(socket_id).emit("admin_send_to_client", {
                 text,
-                socket_id: socket.id
+                socket_id_admin: socket.id
             })
         })
 
